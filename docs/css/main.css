@@ -1,0 +1,81 @@
+.navbar-bg {
+    background-color: rgba(255, 255, 255, 0) !important;
+    visibility: hidden !important;
+}
+
+.navbar-bg-trans {
+    background-color: #e3f2fd !important;
+    visibility: visible !important;
+}
+
+.text-white {
+    color: rgb(255, 255, 255);
+}
+
+.app-name-style {
+    color: rgb(255, 255, 255);
+}
+
+html, body {
+    height: 100%;
+}
+footer{
+    background-color: #e7e7e7;
+}
+
+.bg-img {
+    background-image: url("../img/crop-chemist-taking-science-notes-on-whiteboard-during-3825468.jpg");
+    background-color: rgba(0, 0, 0, 0.452);
+    background-blend-mode: overlay;
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+.top-student-login {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.item1 {
+    position: absolute;
+    z-index: 2;
+    top: 20%;
+    left: 25%;
+    right: 25%;
+    text-align: center;
+}
+
+.section-pad {
+    padding: 10px;
+}
+
+.navbarformobile {
+    visibility: hidden;
+}
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 575.98px) {
+    .navbarformobile {
+        visibility: visible;
+    }
+}
+
+.mobile-only-nav{
+display: none;
+}
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width:  575.98px) {
+    .navi-menu-desktop {
+        visibility: collapse;
+    }
+
+    .mobile-only-nav{
+display: flex;
+    }
+}
+
+
+
+
